@@ -1,0 +1,23 @@
+JavaScript node --check: PASS
+HTML parser: PASS (not formal conformance validation)
+CSS parser: 3 blocks, zero top-level parse errors (not full property validation)
+{
+  "checks": [
+    "13 accounts",
+    "7 FF",
+    "84 monthly targets",
+    "SPV scope 3/2/2",
+    "FF self scope",
+    "KPI cap",
+    "weights 100",
+    "all months",
+    "EC <= visits",
+    "annual sum matches monthly",
+    "rank max 5"
+  ],
+  "rows": 22491,
+  "bytes": 3046895
+}
+
+Browser: BLOCKED (ERR_BLOCKED_BY_ADMINISTRATOR). Print, CRUD, responsive layout and persistence not end-to-end verified.
+Changes: explicit head/body; report article guard; print overlay CSS; report SVG variables.
